@@ -50,7 +50,7 @@ Install the pySerial library
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Test the serial communications
+### Test the serial communication using the Serial monitor
 
 1. Open Arduino IDE
 2. Open the code `testSerialCommunication.ino`
@@ -65,6 +65,27 @@ The following message should be displayed on the Serial monitor:
 ```sh
 (x,y)=(200,0)
 ```
+
+### Test the serial communication using Python
+
+1. Open Arduino IDE
+2. Open the code `testSerialCommunication.ino`
+3. Compile and upload it to your Arduino board
+5. Launch the python code:
+   ```sh
+   python testSerialCommunication.py -f <fps> -p <comPort> -b <baudrate> 
+   ```
+By using arguments, you can modify the fps (frames per second), the COM port, and the Baudrate.
+
+The following message should be displayed on the shell:
+```sh
+(x,y)=(-100,100)
+(x,y)=(-100,-100)
+(x,y)=(100,-100)
+(x,y)=(100,100)
+(x,y)=(-100,100)
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
