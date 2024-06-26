@@ -82,7 +82,7 @@ Distributed under the GPL License. See `LICENSE.txt` for more information.
 
 Guillaume Gibert
 
-Project Link: [https://github.com/GuillaumeGibert/Polargraph](https://github.com/GuillaumeGibert/ArduinoToolkit)
+Project Link: [https://github.com/GuillaumeGibert/ArduinoToolkit](https://github.com/GuillaumeGibert/ArduinoToolkit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
