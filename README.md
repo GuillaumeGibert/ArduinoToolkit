@@ -77,7 +77,7 @@ The following message should be displayed on the Serial monitor:
    ```
 By using arguments, you can modify the fps (frames per second), the COM port, and the Baudrate.
 
-The following message should be displayed on the Serial monitor:
+The following message should be displayed on the shell:
 ```sh
 (x,y)=(-100,100)
 (x,y)=(-100,-100)
